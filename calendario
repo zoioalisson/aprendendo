@@ -1,0 +1,249 @@
+import java.util.Scanner;
+
+public class Calendario {
+
+    static public void main(String[] args) {
+
+        Scanner auxiliar = new Scanner(System.in);
+
+        int mes;
+
+
+        System.out.printf("\n=================\n|Calendario 2019|\n=================");
+        System.out.printf("\n\n0000000_000000__00_____000__000000000\n");
+        System.out.printf("00______00______00_____000_______000\n");
+        System.out.printf("00______00______00_____000______000\n");
+        System.out.printf("0000____0000____00_____000_____000\n");
+        System.out.printf("00______00______00_____000____000\n");
+        System.out.printf("00______00______00_____000___000\n");
+        System.out.printf("00______000000__000000_000__00000000\n\n");
+        System.out.printf("_000000_____00000_______000_______00000\n");
+        System.out.printf("00____00___0000000_____0000______0000000\n");
+        System.out.printf("0_____00__00_____00___00_00_____00_____00\n");
+        System.out.printf("_____00___00_____00______00_____00_____00\n");
+        System.out.printf("____00____00_____00______00______00000000\n");
+        System.out.printf("___00_____00_____00______00____________00\n");
+        System.out.printf("__00______00_____00______00____________00\n");
+        System.out.printf("00000000___0000000_______00______0000000\n");
+        System.out.printf("____________________0|0__________________\n");
+        System.out.printf("____________________0|0__________________\n");
+        System.out.printf("____________________0|0__________________\n");
+        System.out.printf("_______000_______________________000_____\n");
+        System.out.printf("________00_______________________00______\n");
+        System.out.printf("_________00_____________________00_______\n");
+        System.out.printf("__________00___________________00________\n");
+        System.out.printf("____________00_______________00__________\n");
+        System.out.printf("______________000000000000000____________\n");
+        System.out.printf("________________00000000000______________\n");
+
+        System.out.printf("\n=================\n|Calendario 2019|\n=================");
+
+        System.out.printf("\n\n(1)  <- Janeiro\n\n(2)  <- Feveireiro\n\n(3)  <- Marco\n\n(4)  <- Abril\n\n(5)  <- Maio\n\n(6)  <- Junho\n\n(7)  <- Julho\n\n(8)  <- Agosto\n\n(9)  <- Setembro\n\n(10) <- Outubro\n\n(11) <- Novembro\n\n(12) <- Dezembro\n\n(13) <- Obter os Calendarios de Janeiro a Dezembro");
+        System.out.printf("\n\n!Ola Usuario(a) Seja Bem Vindo!");
+
+        System.out.printf("\n\nDigite o mes desejado para obter o calendario: ");
+        mes = auxiliar.nextInt();
+
+        switch (mes) {
+            case 1:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Janeiro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n 1  \t2  \t3  \t4  \t5  \t6  \t7\n\n 7  \t8  \t9  \t10  \t11  \t12  \t13\n\n 14  \t15  \t16  \t17  \t18  \t19  \t20\n\n 21  \t22  \t23  \t24  \t25  \t26  \t27\n\n 28  \t29  \t30  \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(1) <- Confraternizacao Universal ");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 2:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Feveireiro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t1  \t2  \t3  \t4  \n\n 5  \t6  \t7  \t8  \t9  \t10  \t11\n\n 12  \t13 \t14  \t15  \t16  \t17  \t18\n\n 19  \t20 \t21  \t22  \t23  \t24  \t25\n\n t26  \t27 \t28");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(13) <- Carnaval 2018 ");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 3:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Marco|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t1  \t2  \t3  \t4  \n\n 5  \t6  \t7  \t8  \t9  \t10  \t11\n\n 12  \t13 \t14  \t15  \t16  \t17  \t18\n\n 19  \t20 \t21  \t22  \t23  \t24  \t25\n\n t26  \t27 \t28 \t29 \t30 \t31 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(30) <- Sexta-feira santa 2018 ");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 4:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Abril|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t\t\t\t1\n\n 2  \t3  \t4  \t5  \t6  \t7 \t8\n\n 9  \t10  \t11  \t12  \t13 \t14 \t15\n\n 16  \t17  \t18  \t19  \t20 \t21  \t22\n\n 23  \t24  \t25  \t26  \t27 \t28  \t29\n\n 30");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(1) <- Tiradentes 2018");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 5:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Maio|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t1  \t2  \t3  \t4  \t5  \t6\n\n 7  \t8  \t9  \t10  \t11  \t12  \t13\n\n 14  \t15  \t16  \t17  \t18  \t19  \t20\n\n 21  \t22  \t23  \t24  \t25  \t26  \t27\n\n 28  \t29  \t30  \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(1) <- Dia do trabalhador 2018\n(31) <- Corpus Christi 2018 ");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 6:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Junho|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t\t1  \t2  \t3\n\n 4  \t5  \t6  \t7 \t8  \t9  \t10\n\n 11  \t12  \t13 \t14  \t15  \t16  \t17\n\n 18  \t19  \t20 \t21  \t22  \t23  \t24\n\n 25  \t26  \t27 \t28  \t29  \t30 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 7:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Julho|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n\t\t\t\t\t\t1\n\n 2  \t3  \t4  \t5  \t6  \t7 \t8\n\n 9  \t10  \t11  \t12  \t13 \t14 \t15\n\n 16  \t17  \t18  \t19  \t20 \t21  \t22\n\n 23  \t24  \t25  \t26  \t27 \t28  \t29\n\n 30 \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf(" ");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 8:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Agosto|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n 1  \t2  \t3  \t4  \t5  \t6  \t7\n\n 7  \t8  \t9  \t10  \t11  \t12  \t13\n\n 14  \t15  \t16  \t17  \t18  \t19  \t20\n\n 21  \t22  \t23  \t24  \t25  \t26  \t27\n\n 28  \t29  \t30  \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 9:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Setembro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t\t\t1  \t2\n\n 3  \t4  \t5  \t6  \t7 \t8  \t9\n\n 10  \t11  \t12  \t13 \t14  \t15  \t16\n\n 17  \t18  \t19  \t20 \t21  \t22  \t23\n\n 24  \t25  \t26  \t27 \t28  \t29  \t30");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(7) <- Independencia do Brasil 2018 ");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 10:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Outubro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n 1  \t2  \t3  \t4  \t5  \t6  \t7\n\n 8  \t9  \t10  \t11  \t12  \t13\n\n 14  \t15  \t16  \t17  \t18  \t19  \t20\n\n 21  \t22  \t23  \t24  \t25  \t26  \t27\n\n 28  \t29  \t30  \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(12) <- Padroeira do Brasil ");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 11:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Novembro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t1  \t2  \t3  \t4  \n\n 5  \t6  \t7  \t8  \t9  \t10  \t11\n\n 12  \t13 \t14  \t15  \t16  \t17  \t18\n\n 19  \t20 \t21  \t22  \t23  \t24  \t25\n\n t26  \t27 \t28 \t29 \t30 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(2)  <- Finados\n(15) <- Proclamação da Republica ");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 12:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Dezembro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t\t\t1  \t2\n\n 3  \t4  \t5  \t6  \t7 \t8  \t9\n\n 10  \t11  \t12  \t13 \t14  \t15  \t16\n\n 17  \t18  \t19  \t20 \t21  \t22  \t23\n\n 24  \t25  \t26  \t27 \t28  \t29  \t30\n\n 31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(25) <- Natal ");
+                System.out.printf("\n===================================================\n");
+                break;
+            case 13:
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Janeiro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n 1  \t2  \t3  \t4  \t5  \t6  \t7\n\n 7  \t8  \t9  \t10  \t11  \t12  \t13\n\n 14  \t15  \t16  \t17  \t18  \t19  \t20\n\n 21  \t22  \t23  \t24  \t25  \t26  \t27\n\n 28  \t29  \t30  \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(1) <- Confraternizacao Universal ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Feveireiro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t1  \t2  \t3  \t4  \n\n 5  \t6  \t7  \t8  \t9  \t10  \t11\n\n 12  \t13 \t14  \t15  \t16  \t17  \t18\n\n 19  \t20 \t21  \t22  \t23  \t24  \t25\n\n t26  \t27 \t28");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(13) <- Carnaval 2018 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Marco|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t1  \t2  \t3  \t4  \n\n 5  \t6  \t7  \t8  \t9  \t10  \t11\n\n 12  \t13 \t14  \t15  \t16  \t17  \t18\n\n 19  \t20 \t21  \t22  \t23  \t24  \t25\n\n t26  \t27 \t28 \t29 \t30 \t31 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(30) <- Sexta-feira santa 2018 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Abril|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t\t\t\t1\n\n 2  \t3  \t4  \t5  \t6  \t7 \t8\n\n 9  \t10  \t11  \t12  \t13 \t14 \t15\n\n 16  \t17  \t18  \t19  \t20 \t21  \t22\n\n 23  \t24  \t25  \t26  \t27 \t28  \t29\n\n 30");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(1) <- Tiradentes 2018");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Maio|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t1  \t2  \t3  \t4  \t5  \t6\n\n 7  \t8  \t9  \t10  \t11  \t12  \t13\n\n 14  \t15  \t16  \t17  \t18  \t19  \t20\n\n 21  \t22  \t23  \t24  \t25  \t26  \t27\n\n 28  \t29  \t30  \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(1) <- Dia do trabalhador 2018\n(31) <- Corpus Christi 2018 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Junho|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t\t1  \t2  \t3\n\n 4  \t5  \t6  \t7 \t8  \t9  \t10\n\n 11  \t12  \t13 \t14  \t15  \t16  \t17\n\n 18  \t19  \t20 \t21  \t22  \t23  \t24\n\n 25  \t26  \t27 \t28  \t29  \t30 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Julho|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n\t\t\t\t\t\t1\n\n 2  \t3  \t4  \t5  \t6  \t7 \t8\n\n 9  \t10  \t11  \t12  \t13 \t14 \t15\n\n 16  \t17  \t18  \t19  \t20 \t21  \t22\n\n 23  \t24  \t25  \t26  \t27 \t28  \t29\n\n 30 \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf(" ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Agosto|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n 1  \t2  \t3  \t4  \t5  \t6  \t7\n\n 7  \t8  \t9  \t10  \t11  \t12  \t13\n\n 14  \t15  \t16  \t17  \t18  \t19  \t20\n\n 21  \t22  \t23  \t24  \t25  \t26  \t27\n\n 28  \t29  \t30  \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Setembro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t\t\t1  \t2\n\n 3  \t4  \t5  \t6  \t7 \t8  \t9\n\n 10  \t11  \t12  \t13 \t14  \t15  \t16\n\n 17  \t18  \t19  \t20 \t21  \t22  \t23\n\n 24  \t25  \t26  \t27 \t28  \t29  \t30");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(7) <- Independencia do Brasil 2018 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Outubro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n 1  \t2  \t3  \t4  \t5  \t6  \t7\n\n 8  \t9  \t10  \t11  \t12  \t13\n\n 14  \t15  \t16  \t17  \t18  \t19  \t20\n\n 21  \t22  \t23  \t24  \t25  \t26  \t27\n\n 28  \t29  \t30  \t31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(12) <- Padroeira do Brasil ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Novembro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t1  \t2  \t3  \t4  \n\n 5  \t6  \t7  \t8  \t9  \t10  \t11\n\n 12  \t13 \t14  \t15  \t16  \t17  \t18\n\n 19  \t20 \t21  \t22  \t23  \t24  \t25\n\n t26  \t27 \t28 \t29 \t30 ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(2)  <- Finados\n(15) <- Proclamação da Republica ");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("       \t\t|Dezembro|");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("Seg\tTer\tQuar\tQuin\tSex\tSab\tDom\n\n \t\t\t\t\t1  \t2\n\n 3  \t4  \t5  \t6  \t7 \t8  \t9\n\n 10  \t11  \t12  \t13 \t14  \t15  \t16\n\n 17  \t18  \t19  \t20 \t21  \t22  \t23\n\n 24  \t25  \t26  \t27 \t28  \t29  \t30\n\n 31");
+                System.out.printf("\n===================================================\n");
+                System.out.printf("(25) <- Natal ");
+                System.out.printf("\n===================================================\n");
+                break;
+            default:
+                System.out.printf("\n\nMes inserido invalido\n\n");
+                break;
+        }
+
+    }
+
+}
